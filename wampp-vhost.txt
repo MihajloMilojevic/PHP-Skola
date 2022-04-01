@@ -1,0 +1,25 @@
+!!! PROMENITI LOKACIJU FAJLOVA !!!
+
+
+#
+<VirtualHost *:80>
+	ServerName milojevic.tech
+	DocumentRoot "c:/xampp/htdocs/php"
+	<Directory  "c:/xampp/htdocs/php/">
+		Options +Indexes +Includes +FollowSymLinks +MultiViews
+		AllowOverride All
+		Require local
+	</Directory>
+</VirtualHost>
+
+
+#
+<VirtualHost *:80>
+	ServerName zadatak1.milojevic.tech
+	DocumentRoot "c:/xampp/htdocs/php/zadatak1"
+	<Directory  "c:/xampp/htdocs/php/zadatak1/">
+		Options +Indexes +Includes +FollowSymLinks +MultiViews
+		AllowOverride All
+		Require local
+	</Directory>
+</VirtualHost>

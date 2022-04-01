@@ -1,0 +1,19 @@
+!!! PROMENITI LOKACIJU FAJLOVA !!!
+
+<VirtualHost *:80>
+    ServerAdmin webmaster@milojevic.tech
+    DocumentRoot "C:/xampp/htdocs/PHP"
+    ServerName milojevic.tech
+    ServerAlias milojevic.tech
+    ErrorLog "logs/milojevic.tech-error.log"
+    CustomLog "logs/milojevic.tech-access.log" common
+</VirtualHost>
+
+<VirtualHost *:80>
+    ServerAdmin webmaster@zadatak1.milojevic.tech
+    DocumentRoot "C:/xampp/htdocs/PHP/Zadatak1"
+    ServerName zadatak1.milojevic.tech
+    ServerAlias zadatak1.milojevic.tech
+    ErrorLog "logs/zadatak1.milojevic.tech-error.log"
+    CustomLog "logs/zadatak1.milojevic.tech-access.log" common
+</VirtualHost>

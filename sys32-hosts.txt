@@ -1,0 +1,5 @@
+127.0.0.1	milojevic.tech
+::1	milojevic.tech
+
+127.0.0.1	zadatak1.milojevic.tech
+::1	zadatak1.milojevic.tech
