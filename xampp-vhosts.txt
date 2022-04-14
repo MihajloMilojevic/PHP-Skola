@@ -2,7 +2,7 @@
 
 <VirtualHost *:80>
     ServerAdmin webmaster@milojevic.tech
-    DocumentRoot "C:/xampp/htdocs/PHP"
+    DocumentRoot "D:/XAMPP/htdocs/Mihajlo Milojevic"
     ServerName milojevic.tech
     ServerAlias milojevic.tech
     ErrorLog "logs/milojevic.tech-error.log"
@@ -11,9 +11,45 @@
 
 <VirtualHost *:80>
     ServerAdmin webmaster@zadatak1.milojevic.tech
-    DocumentRoot "C:/xampp/htdocs/PHP/Zadatak1"
+    DocumentRoot "D:/XAMPP/htdocs/Mihajlo Milojevic/Zadatak1"
     ServerName zadatak1.milojevic.tech
     ServerAlias zadatak1.milojevic.tech
     ErrorLog "logs/zadatak1.milojevic.tech-error.log"
     CustomLog "logs/zadatak1.milojevic.tech-access.log" common
+</VirtualHost>
+
+<VirtualHost *:80>
+    ServerAdmin webmaster@zadatak2.milojevic.tech
+    DocumentRoot "D:/XAMPP/htdocs/Mihajlo Milojevic/Zadatak2"
+    ServerName zadatak2.milojevic.tech
+    ServerAlias zadatak2.milojevic.tech
+    ErrorLog "logs/zadatak2.milojevic.tech-error.log"
+    CustomLog "logs/zadatak2.milojevic.tech-access.log" common
+</VirtualHost>
+
+<VirtualHost *:80>
+    ServerAdmin webmaster@zadatak3.milojevic.tech
+    DocumentRoot "D:/XAMPP/htdocs/Mihajlo Milojevic/Zadatak3"
+    ServerName zadatak3.milojevic.tech
+    ServerAlias zadatak3.milojevic.tech
+    ErrorLog "logs/zadatak3.milojevic.tech-error.log"
+    CustomLog "logs/zadatak3.milojevic.tech-access.log" common
+</VirtualHost>
+
+<VirtualHost *:80>
+    ServerAdmin webmaster@zadatak4.milojevic.tech
+    DocumentRoot "D:/XAMPP/htdocs/Mihajlo Milojevic/Zadatak4"
+    ServerName zadatak4.milojevic.tech
+    ServerAlias zadatak4.milojevic.tech
+    ErrorLog "logs/zadatak4.milojevic.tech-error.log"
+    CustomLog "logs/zadatak4.milojevic.tech-access.log" common
+</VirtualHost>
+
+<VirtualHost *:80>
+    ServerAdmin webmaster@zadatak5.milojevic.tech
+    DocumentRoot "D:/XAMPP/htdocs/Mihajlo Milojevic/Zadatak5"
+    ServerName zadatak5.milojevic.tech
+    ServerAlias zadatak5.milojevic.tech
+    ErrorLog "logs/zadatak5.milojevic.tech-error.log"
+    CustomLog "logs/zadatak5.milojevic.tech-access.log" common
 </VirtualHost>

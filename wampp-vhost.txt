@@ -23,3 +23,58 @@
 		Require local
 	</Directory>
 </VirtualHost>
+
+#
+<VirtualHost *:80>
+	ServerName zadatak2.milojevic.tech
+	DocumentRoot "c:/xampp/htdocs/php/zadatak2"
+	<Directory  "c:/xampp/htdocs/php/zadatak2/">
+		Options +Indexes +Includes +FollowSymLinks +MultiViews
+		AllowOverride All
+		Require local
+	</Directory>
+</VirtualHost>
+
+#
+<VirtualHost *:80>
+	ServerName zadatak2.milojevic.tech
+	DocumentRoot "c:/xampp/htdocs/php/zadatak2"
+	<Directory  "c:/xampp/htdocs/php/zadatak2/">
+		Options +Indexes +Includes +FollowSymLinks +MultiViews
+		AllowOverride All
+		Require local
+	</Directory>
+</VirtualHost>
+
+#
+<VirtualHost *:80>
+	ServerName zadatak3.milojevic.tech
+	DocumentRoot "c:/xampp/htdocs/php/zadatak3"
+	<Directory  "c:/xampp/htdocs/php/zadatak3/">
+		Options +Indexes +Includes +FollowSymLinks +MultiViews
+		AllowOverride All
+		Require local
+	</Directory>
+</VirtualHost>
+
+#
+<VirtualHost *:80>
+	ServerName zadatak4.milojevic.tech
+	DocumentRoot "c:/xampp/htdocs/php/zadatak4"
+	<Directory  "c:/xampp/htdocs/php/zadatak4/">
+		Options +Indexes +Includes +FollowSymLinks +MultiViews
+		AllowOverride All
+		Require local
+	</Directory>
+</VirtualHost>
+
+#
+<VirtualHost *:80>
+	ServerName zadatak5.milojevic.tech
+	DocumentRoot "c:/xampp/htdocs/php/zadatak5"
+	<Directory  "c:/xampp/htdocs/php/zadatak5/">
+		Options +Indexes +Includes +FollowSymLinks +MultiViews
+		AllowOverride All
+		Require local
+	</Directory>
+</VirtualHost>

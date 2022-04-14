@@ -4,10 +4,15 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<link rel="shortcut icon" href="./LOGO.ico" type="image/x-icon">
+	<title>Mihajlo Milojević - PHP</title>
 </head>
 <body>
 	<h1>Mihajlo Milojevic</h1>
-	<a href="http://zadatak1.milojevic.tech">zadatak1</a>
+	<a href="http://zadatak1.milojevic.tech">zadatak1</a> <br>
+	<a href="http://zadatak2.milojevic.tech">zadatak2</a> <br>
+	<a href="http://zadatak3.milojevic.tech">zadatak3</a> <br>
+	<a href="http://zadatak4.milojevic.tech">zadatak4</a> <br>
+	<a href="http://zadatak5.milojevic.tech">zadatak5</a> <br>
 </body>
 </html>
