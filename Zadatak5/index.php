@@ -29,7 +29,11 @@
 			$poruka = "Dobar dan";
 		else if($vreme >= 18 && $vreme < 23)
 			$poruka = "Dobro veče";
-		echo "<p>$poruka</p>"
+		echo "<p>$poruka</p>";
+		$kraj = date_create("24.6.2022. 19:30");
+		$sad = date_create();
+		echo "Do kraja školske godine je ostalo još: <br>" . 
+			date_diff($kraj, $sad)->format("%m meseci %d dana %h sati %i minuta %s sekundi");
 	?>
 	</div>
 </body>
