@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" href="./LOGO.ico" type="image/x-icon">
-	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="style.css">
 	<title>Zadatak 5</title>
 </head>
 <body>
@@ -37,6 +37,12 @@
 			"Sara M" => "Sara",
 			"Strahinja S" => "Majdza",
 			"Vojin Š" => "Šuki"
+		);
+		$tabela = array(
+			array("Sara", "Spasojevic", "BTS"),
+			array("Stefan", "Pejkovic", "nerviranje ostalih"),
+			array("Nikola", "Rogonjic", "teretana"),
+			array("Nikola", "Obradovic", "fudbal")
 		);
 		function Ispis($niz){
 			echo "<span class='niz'>Niz: " . join(", ", $niz) . "</span><br>";
@@ -75,6 +81,29 @@
 		echo "Niz izmešan<br>";
 		Ispis($nadimci);
 	?>
+	</div>
+	<br>
+	<div class="php">
+		<table>
+			<thead>
+				<tr>
+					<th>Ime</th>
+					<th>Prezime</th>
+					<th>Hobi</th>
+				</tr>
+			</thead>
+			<tbody>
+				<?php
+					for($i = 0; $i < count($tabela); $i++)
+					{
+						echo "<tr>";
+						for($j = 0; $j < count($tabela[$i]); $j++)
+							echo "<td>" . $tabela[$i][$j] . "</td>";
+						echo "</tr>";
+					}
+				?>
+			</tbody>
+		</table>
 	</div>
 </body>
 </html>

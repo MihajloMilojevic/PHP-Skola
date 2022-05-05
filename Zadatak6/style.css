@@ -20,3 +20,18 @@ body {
     padding: 2rem;
     color: red;
 }
+table {
+    margin: auto;
+}
+table, td, th {
+    border: 3px solid white;
+    border-collapse: collapse;
+}
+th {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+th, td {
+    padding: 2rem;
+    text-align: center;
+}
