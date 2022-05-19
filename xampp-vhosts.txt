@@ -1,5 +1,6 @@
 !!! PROMENITI LOKACIJU FAJLOVA !!!
 
+
 <VirtualHost *:80>
     ServerAdmin webmaster@milojevic.tech
     DocumentRoot "D:/XAMPP/htdocs/Mihajlo Milojevic"
@@ -52,4 +53,23 @@
     ServerAlias zadatak5.milojevic.tech
     ErrorLog "logs/zadatak5.milojevic.tech-error.log"
     CustomLog "logs/zadatak5.milojevic.tech-access.log" common
+</VirtualHost>
+
+<VirtualHost *:80>
+    ServerAdmin webmaster@zadatak6.milojevic.tech
+    DocumentRoot "D:/XAMPP/htdocs/Mihajlo Milojevic/Zadatak6"
+    ServerName zadatak6.milojevic.tech
+    ServerAlias zadatak6.milojevic.tech
+    ErrorLog "logs/zadatak6.milojevic.tech-error.log"
+    CustomLog "logs/zadatak6.milojevic.tech-access.log" common
+</VirtualHost>
+</VirtualHost>
+
+<VirtualHost *:80>
+    ServerAdmin webmaster@zadatak7.milojevic.tech
+    DocumentRoot "D:/XAMPP/htdocs/Mihajlo Milojevic/Zadatak7"
+    ServerName zadatak7.milojevic.tech
+    ServerAlias zadatak7.milojevic.tech
+    ErrorLog "logs/zadatak7.milojevic.tech-error.log"
+    CustomLog "logs/zadatak7.milojevic.tech-access.log" common
 </VirtualHost>

@@ -6,10 +6,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" href="./LOGO.ico" type="image/x-icon">
 	<link rel="stylesheet" href="style.css">
-	<title>Zadatak 5</title>
+	<title>Zadatak 6</title>
 </head>
 <body>
-	<h1 class="title">Zadatak 5</h1>
+	<h1 class="title">Zadatak 6</h1>
 	<p>
 		Rad sa nizovima <br>
 	</p>
