@@ -16,5 +16,6 @@
 	<a href="http://zadatak5.milojevic.tech">zadatak5</a> <br>
 	<a href="http://zadatak6.milojevic.tech">zadatak6</a> <br>
 	<a href="http://zadatak7.milojevic.tech">zadatak7</a> <br>
+	<a href="http://zadatak8.milojevic.tech">zadatak8</a> <br>
 </body>
 </html>

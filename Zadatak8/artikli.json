@@ -1,0 +1,14 @@
+[
+    {
+        "naziv": "Aspirin",
+        "cena": 95
+    },
+    {
+        "naziv": "Andol",
+        "cena": 125
+    },
+    {
+        "naziv": "Vitamin C",
+        "cena": 350
+    }
+]
