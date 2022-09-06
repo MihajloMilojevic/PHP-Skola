@@ -8,8 +8,7 @@
 	<title>Mihajlo Milojević - PHP</title>
 </head>
 <body>
-	<h1>Mihajlo Milojevic</h1>
-	<a href="http://2021-2022.milojevicm.tech">2021-2022</a> <br>
-	<a href="http://2022-2023.milojevicm.tech">2022-2023</a> <br>
+	<h1>Mihajlo Milojevic - 2022-2023</h1>
+	<a href="http://zadatak1.2022-2023.milojevicm.tech">zadatak1</a> <br>
 </body>
 </html>

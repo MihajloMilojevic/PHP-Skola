@@ -1,9 +1,43 @@
-127.0.0.1	milojevic.tech
-::1	milojevic.tech
+127.0.0.1	milojevicm.tech
+::1	milojevicm.tech
 
-127.0.0.1	zadatak1.milojevic.tech
-::1	zadatak1.milojevic.tech
+127.0.0.1	2021-2022.milojevicm.tech
+::1	2021-2022.milojevicm.tech
+
+127.0.0.1	2022-2023.milojevicm.tech
+::1	2022-2023.milojevicm.tech
 
 
-127.0.0.1	zadatak2.milojevic.tech
-::1	zadatak2.milojevic.tech
+# 2022 - 2023 #
+
+127.0.0.1	zadatak1.2022-2023.milojevicm.tech
+::1	zadatak1.2022-2023.milojevicm.tech
+
+# 2021 - 2022 #
+
+127.0.0.1	zadatak1.2021-2022.milojevicm.tech
+::1	zadatak1.2021-2022.milojevicm.tech
+
+127.0.0.1	zadatak2.2021-2022.milojevicm.tech
+::1	zadatak2.2021-2022.milojevicm.tech
+
+127.0.0.1	zadatak3.2021-2022.milojevicm.tech
+::1	zadatak3.2021-2022.milojevicm.tech
+
+127.0.0.1	zadatak4.2021-2022.milojevicm.tech
+::1	zadatak4.2021-2022.milojevicm.tech
+
+127.0.0.1	zadatak5.2021-2022.milojevicm.tech
+::1	zadatak5.2021-2022.milojevicm.tech
+
+127.0.0.1	zadatak6.2021-2022.milojevicm.tech
+::1	zadatak6.2021-2022.milojevicm.tech
+
+127.0.0.1	zadatak7.2021-2022.milojevicm.tech
+::1	zadatak7.2021-2022.milojevicm.tech
+
+127.0.0.1	zadatak8.2021-2022.milojevicm.tech
+::1	zadatak8.2021-2022.milojevicm.tech
+
+127.0.0.1	zadatak9.2021-2022.milojevicm.tech
+::1	zadatak9.2021-2022.milojevicm.tech
