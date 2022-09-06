@@ -10,11 +10,11 @@
 </head>
 <body>
 	<h1 class="title">Zadatak 1</h1>
-	<h2>2022 - 2023</h2>
-	<p></p>
+	<p>Ispis elemenata niza povezanih zarezom, a poslednji pomoću 'i'</p>
 	<div class="php">
 	<?php 
-
+		$niz = array("plava", "crvena", "zuta", "zelena");
+		echo join(", ", array_slice($niz, 0, count($niz) - 1)) . " i " . $niz[count($niz) - 1];
 	?>
 	</div>
 </body>
