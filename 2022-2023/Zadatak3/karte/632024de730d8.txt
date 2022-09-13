@@ -1,0 +1,4 @@
+Izvrsena je rezervacija na ime Mihajlo Milojevic,
+za film Film1
+u terminu 16h.
+Broj sedista je: 15, 20.

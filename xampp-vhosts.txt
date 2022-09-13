@@ -49,6 +49,23 @@
     CustomLog "logs/zadatak2.2022-2023.milojevicm.tech-access.log" common
 </VirtualHost>
 
+<VirtualHost *:80>
+    ServerAdmin webmaster@zadatak3.2022-2023.milojevicm.tech
+    DocumentRoot "C:/xampp/htdocs/Mihajlo Milojevic/2022-2023/Zadatak3"
+    ServerName zadatak3.2022-2023.milojevicm.tech
+    ServerAlias zadatak3.2022-2023.milojevicm.tech
+    ErrorLog "logs/zadatak3.2022-2023.milojevicm.tech-error.log"
+    CustomLog "logs/zadatak3.2022-2023.milojevicm.tech-access.log" common
+</VirtualHost>
+
+<VirtualHost *:80>
+    ServerAdmin webmaster@zadatak4.2022-2023.milojevicm.tech
+    DocumentRoot "C:/xampp/htdocs/Mihajlo Milojevic/2022-2023/Zadatak4"
+    ServerName zadatak4.2022-2023.milojevicm.tech
+    ServerAlias zadatak4.2022-2023.milojevicm.tech
+    ErrorLog "logs/zadatak4.2022-2023.milojevicm.tech-error.log"
+    CustomLog "logs/zadatak4.2022-2023.milojevicm.tech-access.log" common
+</VirtualHost>
 
 
 

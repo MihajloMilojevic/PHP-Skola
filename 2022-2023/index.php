@@ -11,5 +11,7 @@
 	<h1>Mihajlo Milojevic - 2022-2023</h1>
 	<a href="http://zadatak1.2022-2023.milojevicm.tech">zadatak1</a> <br>
 	<a href="http://zadatak2.2022-2023.milojevicm.tech">zadatak2</a> <br>
+	<a href="http://zadatak3.2022-2023.milojevicm.tech">zadatak3</a> <br>
+	<a href="http://zadatak4.2022-2023.milojevicm.tech">zadatak4</a> <br>
 </body>
 </html>
