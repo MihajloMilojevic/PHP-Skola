@@ -20,10 +20,6 @@
 			if(isset($_POST["proizvodi"]))
 				$_SESSION["proizvodi"] = array_unique(array_merge($_POST["proizvodi"], $_SESSION["proizvodi"]), SORT_REGULAR);
 		}
-
-		function checked($proizvod) {
-			return array_search($proizvod, $_SESSION["proizvodi"]);
-		}
 	?>
 	<h1 class="title">Zadatak 6</h1>
 	<p>Sesije 2</p>
