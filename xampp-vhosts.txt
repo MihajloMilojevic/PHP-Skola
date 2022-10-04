@@ -85,6 +85,15 @@
     CustomLog "logs/zadatak6.2022-2023.milojevicm.tech-access.log" common
 </VirtualHost>
 
+<VirtualHost *:80>
+    ServerAdmin webmaster@zadatak7.2022-2023.milojevicm.tech
+    DocumentRoot "C:/xampp/htdocs/Mihajlo Milojevic/2022-2023/Zadatak7"
+    ServerName zadatak7.2022-2023.milojevicm.tech
+    ServerAlias zadatak7.2022-2023.milojevicm.tech
+    ErrorLog "logs/zadatak7.2022-2023.milojevicm.tech-error.log"
+    CustomLog "logs/zadatak7.2022-2023.milojevicm.tech-access.log" common
+</VirtualHost>
+
 
 # 2021 - 2022 #
 
