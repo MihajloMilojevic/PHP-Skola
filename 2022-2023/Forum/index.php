@@ -1,5 +1,12 @@
 <?php 
 	session_start();
+	require "./DATABASE/connection.php";
+	$sql = "SELECT t.id, t.naziv, t.opis, DATE_FORMAT(t.datum, '%d.%m.%Y %H:%i:%s') as datum, k.ime, k.prezime 
+	FROM teme t JOIN korisnici k ON t.autor_id = k.id 
+	ORDER BY t.datum DESC";
+	$res = $conn->query($sql);
+	$teme = array();
+	while($tema = $res->fetch_assoc()) array_push($teme, $tema);
 ?>
 
 <!DOCTYPE html>
@@ -15,6 +22,20 @@
 <body>
 	<p><a href="./registracija.php">Registracija</a></p>
 	<p><a href="./prijava.php">Prijava</a></p>
+	<p><a href="./teme.php">Teme</a></p>
+	<hr>
+	<?php
+		foreach ($teme as $tema) {
+			echo "
+				<div>
+					<h3><a href='/diskusija.php?id=". $tema["id"] ."'>" . $tema["naziv"] ."</a></h3>
+					<p>" . $tema["opis"] . "</p>
+					<p>" . $tema["datum"] . " - " . $tema["ime"] . " " . $tema["prezime"] . "</p>
+					<hr>
+				</div>
+			";
+		}
+	?>
 </body>
 	
 </html>

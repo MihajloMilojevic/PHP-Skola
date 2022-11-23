@@ -1,0 +1,29 @@
+{
+  "id": 1,
+  "naziv": "Tema1",
+  "opis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sapien justo, venenatis ac lobortis vitae, malesuada ut odio. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec diam lectus, condimentum vitae dapibus eu, ullamcorper gravida urna. Ut blandit dui eros, et sodales turpis fringilla in. Proin et feugiat leo. Cras aliquet dolor sit amet sagittis cursus. Donec in nibh mauris. Cras pharetra erat ac eros lobortis, eu lobortis magna venenatis.",
+  "datum": "23.11.2022 22:19:34",
+  "autor": { "ime": "Mihajlo", "prezime": "Milojevic" },
+  "komentari": [
+    {
+      "autor": { "ime": "Mihajlo", "prezime": "Milojevic" },
+      "tekst": "Komentat 1",
+      "datum": "23.11.2022 22:56:29"
+    },
+    {
+      "autor": { "ime": "Stefan", "prezime": "Pejkovic" },
+      "tekst": "Komentat 2",
+      "datum": "23.11.2022 22:56:29"
+    },
+    {
+      "autor": { "ime": "Stefan", "prezime": "Pejkovic" },
+      "tekst": "Komentat 3",
+      "datum": "23.11.2022 22:56:29"
+    },
+    {
+      "autor": { "ime": "Mihajlo", "prezime": "Milojevic" },
+      "tekst": "Komentat 4",
+      "datum": "23.11.2022 22:56:29"
+    }
+  ]
+}
