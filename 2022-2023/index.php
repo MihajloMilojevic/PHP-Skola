@@ -18,6 +18,6 @@
 	<a href="http://zadatak7.2022-2023.milojevicm.tech">zadatak7</a> <br>
 	<hr>
 	<a href="http://zadatak8.2022-2023.milojevicm.tech">zadatak8</a> <br>
-	<a href="http://zadatak9.2022-2023.milojevicm.tech">zadatak9</a> <br>
+	<a href="http://forum.2022-2023.milojevicm.tech">forum</a> <br>
 </body>
 </html>

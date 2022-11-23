@@ -31,6 +31,12 @@
 127.0.0.1	zadatak7.2022-2023.milojevicm.tech
 ::1	zadatak7.2022-2023.milojevicm.tech
 
+127.0.0.1	zadatak8.2022-2023.milojevicm.tech
+::1	zadatak8.2022-2023.milojevicm.tech
+
+127.0.0.1	forum.2022-2023.milojevicm.tech
+::1	forum.2022-2023.milojevicm.tech
+
 
 # 2021 - 2022 #
 

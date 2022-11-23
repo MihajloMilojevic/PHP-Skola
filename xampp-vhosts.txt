@@ -94,6 +94,24 @@
     CustomLog "logs/zadatak7.2022-2023.milojevicm.tech-access.log" common
 </VirtualHost>
 
+<VirtualHost *:80>
+    ServerAdmin webmaster@zadatak8.2022-2023.milojevicm.tech
+    DocumentRoot "C:/xampp/htdocs/Mihajlo Milojevic/2022-2023/Zadatak8"
+    ServerName zadatak8.2022-2023.milojevicm.tech
+    ServerAlias zadatak8.2022-2023.milojevicm.tech
+    ErrorLog "logs/zadatak8.2022-2023.milojevicm.tech-error.log"
+    CustomLog "logs/zadatak8.2022-2023.milojevicm.tech-access.log" common
+</VirtualHost>
+
+<VirtualHost *:80>
+    ServerAdmin webmaster@forum.2022-2023.milojevicm.tech
+    DocumentRoot "C:/xampp/htdocs/Mihajlo Milojevic/2022-2023/FORUM"
+    ServerName forum.2022-2023.milojevicm.tech
+    ServerAlias forum.2022-2023.milojevicm.tech
+    ErrorLog "logs/forum.2022-2023.milojevicm.tech-error.log"
+    CustomLog "logs/forum.2022-2023.milojevicm.tech-access.log" common
+</VirtualHost>
+
 
 # 2021 - 2022 #
 
