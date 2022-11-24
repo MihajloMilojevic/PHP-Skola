@@ -8,3 +8,7 @@ body {
     background-color: rgb(225, 225, 225);
     color: black;
 }
+
+input, textarea {
+	display: block;
+}
