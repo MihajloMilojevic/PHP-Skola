@@ -97,7 +97,7 @@ BEGIN
 FROM
     teme t
 WHERE
-    t.id = id_in;
+    t.id = id_in
     );
 END//
 
@@ -105,10 +105,10 @@ DELIMITER ;
 
 CREATE VIEW json_teme AS SELECT *, json_tema(id) as json from teme;
 
-INSERT INTO korisnici(ime, prezime, email, lozinka)
-VALUES ('Mihajlo', 'Milojevic', 'milojevicm374@gmail.com', '	Mihajlo123');
-INSERT INTO korisnici(ime, prezime, email, lozinka)
-VALUES ('Stefan', 'Pejkovic', 'stefanpejkovic2004@gmail.com', 'Pali123');
+INSERT INTO korisnici(ime, prezime, email, lozinka) VALUES 
+('Mihajlo', 'Milojevic', 'milojevicm374@gmail.com', 'Mihajlo123'),
+('Stefan', 'Pejkovic', 'stefanpejkovic2004@gmail.com', 'Pali123'),
+('Sara', 'Spasojevic', 'saraspasojevic7@gmail.com', 'Sara123');
 
 
 INSERT INTO teme (naziv, opis, datum, autor_id) VALUES

@@ -22,6 +22,7 @@
 <body>
 	<p><a href="./registracija.php">Registracija</a></p>
 	<p><a href="./prijava.php">Prijava</a></p>
+	<p><a href="./odjava.php">Odjava</a></p>
 	<p><a href="./teme.php">Teme</a></p>
 	<hr>
 	<?php

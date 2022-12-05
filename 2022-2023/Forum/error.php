@@ -11,6 +11,7 @@
 	<title>Greška</title>
 </head>
 <body>
+	<p><a href="/">Nazad na početnu</a></p>
 	<h1><?php
 		if(empty($_GET["code"])) echo "500";
 		else echo $_GET["code"];
@@ -19,6 +20,5 @@
 		if(empty($_GET["message"])) echo "Došlo je do greške";
 		else echo $_GET["message"];
 	?></p>
-	<p><a href="/">Nazad na početnu</a></p>
 </body>
 </html>

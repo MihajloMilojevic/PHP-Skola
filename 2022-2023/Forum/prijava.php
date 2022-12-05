@@ -96,6 +96,8 @@
 	<title>Prijava </title>
 </head>
 <body>
+	
+	<p><a href="/">Nazad na početnu</a></p>
 <?php if(!($data["ok"])) echo "<p class='error'>" . $data["errorMessage"] . "</p>"; ?>
 	<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
 		

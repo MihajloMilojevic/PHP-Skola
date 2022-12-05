@@ -64,6 +64,8 @@
 	?></title>
 </head>
 <body>
+	
+	<p><a href="/">Nazad na početnu</a></p>
 	<h1><?php
 		echo $tema->naziv;
 	?></h1>
